@@ -1,3 +1,29 @@
+body{
+    background-color: rgb(196, 230, 164);
+}
+
 table, th, td {
     border: 1px solid;
+    
+  }
+
+.miTabla {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 25px;
+  }
+  
+  .miTabla td, .miTabla th {
+    border: 1px solid #4b4b4b;
+    padding: 8px;
+  }
+  .miTabla th {
+    background-color: black;
+    color: rgb(196, 230, 164);
+  }
+  .output{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
   }

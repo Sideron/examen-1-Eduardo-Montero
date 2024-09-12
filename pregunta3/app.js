@@ -21,6 +21,11 @@ addProducto("Camotes", 5,1.2)
 const updateTable = () => {
     let elementos = misProductos.map((x) => "<tr>" + x.getInfo() + "</tr>").join(" ");
     console.log(elementos);
-    display.innerHTML = elementos;
+    display.innerHTML = `<table class="miTabla">
+    <tr>
+        <th>Nombre</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+    </tr>`+elementos;
 }
 updateTable();
